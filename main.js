@@ -30,6 +30,8 @@ const checkbox = document.querySelectorAll('.checkbox');
 console.log(checkbox [0].checked);
 
 const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVXYWZ';
+const letrasMinusculas = 'abcdefghijklmnopqrstuvxywz';
+const numeros = '0123456789';
 geraSenha();
 
 function geraSenha() {
